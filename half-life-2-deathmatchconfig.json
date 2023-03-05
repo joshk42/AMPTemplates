@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Starting Map",
-        "Category": "",
+        "Category": "HL2DM Config",
         "Description": "Sets starting map for server.",
         "Keywords": "Starting, Start, Map",
         "FieldName": "+map",
