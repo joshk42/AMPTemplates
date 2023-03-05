@@ -1,0 +1,15 @@
+[
+    {
+        "DisplayName": "Starting Map",
+        "Category": "",
+        "Description": "Sets starting map for server.",
+        "Keywords": "Starting, Start, Map",
+        "FieldName": "+map",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+map",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "dm_underpass",
+        "EnumValues": {}
+    }
+]
