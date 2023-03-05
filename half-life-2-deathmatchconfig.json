@@ -1,8 +1,8 @@
 [
     {
         "DisplayName": "Starting Map",
-        "Category": "HL2DM Config",
-        "Description": "Sets starting map for server.",
+        "Category": "Server Settings",
+        "Description": "Sets which map to start the server with.",
         "Keywords": "Starting, Start, Map",
         "FieldName": "+map",
         "InputType": "text",
@@ -10,6 +10,48 @@
         "ParamFieldName": "+map",
         "IncludeInCommandLine": true,
         "DefaultValue": "dm_underpass",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Password",
+        "Category": "Server Settings",
+        "Description": "Optionally sets a password for the server.",
+        "Keywords": "password, security",
+        "FieldName": "+sv_password",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+sv_password",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Team Deathmatch Mode",
+        "Category": "Game Settings",
+        "Description": "Sets the game mode to Team Deathmatch",
+        "Keywords": "tdm, team",
+        "FieldName": "+mp_teamplay",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+mp_teamplay",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "0",
+        "EnumValues": {
+            "0": "False",
+            "1": "True"
+        }
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Game Settings",
+        "Description": "Sets the maximum number of players on the server.",
+        "Keywords": "max players, limit",
+        "FieldName": "+maxplayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "+maxplayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8",
         "EnumValues": {}
     }
 ]
