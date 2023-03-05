@@ -4,10 +4,10 @@
         "Category": "Server Settings",
         "Description": "Sets which map to start the server with.",
         "Keywords": "Starting, Start, Map",
-        "FieldName": "+map",
+        "FieldName": "map",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "+map",
+        "ParamFieldName": "map",
         "IncludeInCommandLine": true,
         "DefaultValue": "dm_underpass",
         "EnumValues": {}
